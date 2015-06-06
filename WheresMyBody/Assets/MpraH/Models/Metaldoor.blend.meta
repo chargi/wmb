@@ -49,7 +49,7 @@ ModelImporter:
     4300010: Handle_MeshPart0
     4300012: Handle_MeshPart1
     4300014: Handle_MeshPart2
-    7400000: Default Take
+    7400000: Open
     9500000: //RootNode
   materials:
     importMaterials: 1
@@ -66,7 +66,53 @@ ModelImporter:
     animationScaleError: .5
     animationWrapMode: 0
     extraExposedTransformPaths: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Open
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 79
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bar1
+        weight: 1
+      - path: Bar2
+        weight: 1
+      - path: Bar3
+        weight: 1
+      - path: Handle
+        weight: 1
+      - path: Handle/Handle_MeshPart0
+        weight: 1
+      - path: Handle/Handle_MeshPart1
+        weight: 1
+      - path: Handle/Handle_MeshPart2
+        weight: 1
+      - path: Main
+        weight: 1
+      - path: Panel
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
     isReadable: 1
   meshes:
     lODScreenPercentages: []
