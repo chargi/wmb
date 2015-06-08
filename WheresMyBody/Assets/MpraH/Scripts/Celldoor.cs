@@ -4,7 +4,7 @@ using System.Collections;
 public class Celldoor : MonoBehaviour {
 	//private Animator animator;
 	private bool open=false;
-	private float turnSpeed=30f;
+	private float turnSpeed=40f;
 	
 	void Start(){
 		//animator=GetComponent<Animator>();
