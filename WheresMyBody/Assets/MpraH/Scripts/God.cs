@@ -21,7 +21,7 @@ public class God : MonoBehaviour {
 		if(dying){
 			if(Cam2.transform.localPosition.y <8){
 				Cam2.transform.Rotate(new Vector3(120/8,0,0),turnSpeed*10*Time.deltaTime);
-				Cam2.transform.Translate(new Vector3(0,1,-6/8)*turnSpeed*Time.deltaTime);
+				Cam2.transform.Translate(new Vector3(0,1,-3/8)*turnSpeed*Time.deltaTime);
 			}else{
 				dying=false;
 				Respawn();
