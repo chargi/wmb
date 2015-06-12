@@ -36,10 +36,11 @@ public class God : MonoBehaviour {
 
 	public void Respawn(){
 		life++;
-		FPSController.transform.position=new Vector3(0-2*life,1,-102);
+		FPSController.transform.position=new Vector3(0-4*life,1,-103);
+		Destroy(GameObject.Find("Player_inactive_"+life));
+		ChangeCamera();
 		Cam2.transform.localPosition=new Vector3(0,5,0);
 		Cam2.transform.rotation=Quaternion.Euler(0,0,0);
-		ChangeCamera();
 	}
 
 	public void ChangeCamera(){

@@ -20,5 +20,5 @@ public class Celldoor : MonoBehaviour {
 		//animator.Play("Open");
 		open=true;
 	}
-	
+
 }

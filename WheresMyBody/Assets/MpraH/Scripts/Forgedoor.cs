@@ -18,6 +18,10 @@ public class Forgedoor : MonoBehaviour {
 	
 	void OnMouseDown(){
 		//animator.Play("Open");
+		OpenDoor();
+	}
+	
+	public void OpenDoor(){
 		open=true;
 	}
 	
