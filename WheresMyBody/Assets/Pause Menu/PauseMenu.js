@@ -1,5 +1,5 @@
 var pauseMenuFont : Font;
-private var pauseEnabled = false;			
+protected var pauseEnabled = false;			
 var customGuiStyle : GUIStyle;
 
 function Start(){
@@ -20,7 +20,7 @@ function Update(){
 			pauseEnabled = false;
 			Time.timeScale = 1;
 			AudioListener.volume = 1;
-			Cursor.visible = false;			
+			Cursor.visible = false;	
 		}
 		
 		//else if game isn't paused, then pause it
