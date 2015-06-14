@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+/*
+ * Script that opens the forge door
+ */
 public class Forgedoor : MonoBehaviour {
 	//private Animator animator;
 	private bool open=false;
@@ -14,11 +17,6 @@ public class Forgedoor : MonoBehaviour {
 		if(open && transform.eulerAngles.y<90){
 			transform.Rotate(new Vector3(0,1,0), turnSpeed*Time.deltaTime);
 		}
-	}
-	
-	void OnMouseDown(){
-		//animator.Play("Open");
-		OpenDoor();
 	}
 	
 	public void OpenDoor(){
